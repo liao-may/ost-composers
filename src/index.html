@@ -3,13 +3,30 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
-    <link ref="stylesheet" href="css/default.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>現代配樂師</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="css/default.css" rel="stylesheet"/>
+    <link href="css/index.css" rel="stylesheet"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/index.js"></script>
   </head>
-  <body>
+  <body onresize="adjustBannerChildren()">
+    <header id="banner">
+      <video src="video/banner.mp4" autoplay loop></video>
+      <div id="banner-text-container">
+        <div id="banner-ribbon" class="text-ribbon">
+          <canvas></canvas>
+          <div>
+            <h1>見識偉大的現代配樂師們</h1>
+            <p>當你沉醉於電影、電視劇、遊戲或者動漫的故事中時，是否有留意過它們背後美妙的配樂？還有它們的作曲家呢？好的配樂是必不可少的元素，能起到帶動情節，營造氛圍，甚至帶領文化發展的作用。本網站帶領大家認識業界最有影響力的配樂師，一瞥原聲配樂的精粹作品。</p>
+          </div>
+        </div>
+      </div>
+    </header>
 
-  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </body>
 </html>
