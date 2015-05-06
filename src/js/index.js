@@ -1,5 +1,10 @@
-function adjustBannerChildren() {
-  bannerHeight = $("#banner").height();
-  $("#banner-text-container").height(bannerHeight);
-  
+function configureBannerRibbon() {
+  var bannerHeight = $("#banner").height();
+  $("#banner-ribbon-container").height(bannerHeight);
+  $("#banner-ribbon").height(bannerHeight * 0.51);
+}
+
+function indexOnResize() {
+  defaultOnResize();
+  configureBannerRibbon();
 }

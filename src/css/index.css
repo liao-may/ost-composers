@@ -3,7 +3,11 @@
   max-height: 80vh;
 }
 
-#banner-text-container {
+#banner video {
+  width: 100vw;
+}
+
+#banner-ribbon-container {
   z-index: 1;
   position: absolute;
   top: 0;
@@ -13,37 +17,10 @@
   align-items: center;
 }
 
-#banner-ribbon, #banner-ribbon > canvas, #banner-ribbon > div {
-  width: 70vw;
-  height: 40vh;
+#banner-ribbon {
+  width: 75vw;
 }
 
-#banner-ribbon > canvas, #banner-ribbon > div {
-  position: absolute;
-}
-
-#banner-ribbon > canvas {
-  background: black;
-  opacity: 0.8;
-  z-index: -1;
-}
-
-#banner-ribbon > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+#banner-ribbon > .ribbon-text-container {
   align-items: flex-start;
-}
-
-#banner-ribbon h1, #banner-ribbon p {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-#banner-ribbon h1 {
-  font-size: 4.8vw;
-}
-
-#banner-ribbon p {
-  font-size: 2vw;
 }

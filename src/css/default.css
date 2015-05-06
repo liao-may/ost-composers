@@ -6,7 +6,22 @@ h1, p {
   color: white;
 }
 
-video {
-  width: 100%;
+.text-ribbon > * {
+  position: absolute;
 }
 
+.ribbon-background {
+  background: black;
+  opacity: 0.8;
+}
+
+.ribbon-text-container {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ribbon-text-container > * {
+  padding: 0 2rem;
+}
