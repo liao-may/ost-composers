@@ -12,7 +12,8 @@ h1, p {
 
 .ribbon-background {
   background: black;
-  opacity: 0.8;
+  opacity: 0.9;
+  filter: drop-shadow(0.1rem 0.1rem 2rem black) drop-shadow(-0.1rem -0.1rem 2rem black);
 }
 
 .ribbon-text-container {
