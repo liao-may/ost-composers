@@ -1,28 +1,50 @@
 body {
-  background: #272727
+  background: #272727;
+  margin: 0;
 }
 
 h1, p {
   color: white;
+  font-size : large;
 }
 
-.text-ribbon > * {
+h1 {
+  font-weight: bold;
+}
+
+.navigator {
   position: absolute;
-}
-
-.ribbon-background {
-  background: black;
-  opacity: 0.9;
-  filter: drop-shadow(0.1rem 0.1rem 2rem black) drop-shadow(-0.1rem -0.1rem 2rem black);
-}
-
-.ribbon-text-container {
+  height: 4rem;
+  width: 100vw;
+  top: 0;
   z-index: 1;
+  background: linear-gradient(to bottom, black, rgba(0,0,0,0.5) 70%, transparent);
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.ribbon-text-container > * {
-  padding: 0 2rem;
+.navigator {
+
+}
+
+.navigator > p {
+  font-weight: bold;
+  
+}
+
+.text-ribbon {
+  background: rgba(1, 153, 210, 0.7);
+}
+
+.text-ribbon h1 {
+  margin-top: 0;
+}
+
+.text-ribbon p {
+  margin-bottom: 0;
+}
+
+.text-ribbon > div {
+  padding: 1rem;
 }

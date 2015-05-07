@@ -1,26 +1,18 @@
 #banner {
   overflow: hidden;
-  max-height: 80vh;
 }
 
 #banner video {
-  width: 100vw;
+  height: 27rem;
+  transform: translateX(-24rem);
 }
 
-#banner-ribbon-container {
-  z-index: 1;
+#banner > .text-ribbon {
   position: absolute;
-  top: 0;
-  width: 100vw;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  z-index: 1;
+  top: 4.7rem;
 }
 
-#banner-ribbon {
+#banner > .text-ribbon > div {
   width: 75vw;
-}
-
-#banner-ribbon > .ribbon-text-container {
-  align-items: flex-start;
 }
