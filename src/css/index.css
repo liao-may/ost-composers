@@ -1,18 +1,30 @@
-#banner {
+header {
   overflow: hidden;
 }
 
-#banner video {
+header > video {
   height: 27rem;
-  transform: translateX(-24rem);
+  transform: translateX(-20rem);
 }
 
-#banner > .text-ribbon {
+header > img {
+  height: 27rem;
+  transform: translateX(-9rem);
+}
+
+header > .text-ribbon {
   position: absolute;
   z-index: 1;
-  top: 4.7rem;
+  top: 5.7rem;
+  width: 75vw;
+  display: flex;
+  justify-content: flex-end;
 }
 
-#banner > .text-ribbon > div {
-  width: 75vw;
+header > .text-ribbon > div {
+
+}
+
+header > .text-ribbon p {
+  width: 13em;
 }

@@ -2,7 +2,8 @@
 <html lang="zh-TW">
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title>現代配樂師</title>
     <link href="css/default.css" rel="stylesheet"/>
@@ -10,19 +11,29 @@
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="js/default.js"></script>
     <script src="js/index.js"></script>
+    <script type="text/javascript">
+    function replaceVideo() {
+      if (window.matchMedia("(min-width: 50rem)").matches) {
+        $("header > img").replaceWith("<video src=\"video/banner.mp4\" autoplay loop></video>");
+      }
+    }
+    </script>
   </head>
-  <body>
-    <div class="navigator">
+  <body onload="replaceVideo()">
+    <nav class="navigator">
       <h1>現代配樂師</h1>
-    </div>
-    <header id="banner">
-      <video src="video/banner.mp4" autoplay loop></video>
-        <div class="text-ribbon">
-          <div class="ribbon-text-container">
-            <h1>見識偉大的現代配樂師們</h1>
-            <p>當你沉醉於電影、電視劇、遊戲或者動漫的故事中時，是否有留意過它們背後美妙的配樂？好的配樂是必不可少的元素，能起到帶動情節，營造氛圍的作用。本網站帶領大家認識業界最有影響力的配樂師，一瞥原聲配樂的精粹作品。</p>
-          </div>
+    </nav>
+    <header>
+      <img src="img/banner.png"/>
+      <!-- video tag placed here -->
+      <div class="text-ribbon">
+        <div>
+          <h1>見識偉大的現代配樂師們</h1>
+          <p>當你沉醉於電影、電視劇、遊戲或者動漫的故事中時，是否有留意過它們背後美妙的配樂？好的配樂是必不可少的元素，能起到帶動情節，營造氛圍的作用。本網站帶領大家認識業界最有影響力的配樂師，一瞥原聲配樂的精粹作品。</p>
         </div>
+      </div>
     </header>
+    <section>
+    </section>
   </body>
 </html>

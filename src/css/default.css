@@ -8,10 +8,6 @@ h1, p {
   font-size : large;
 }
 
-h1 {
-  font-weight: bold;
-}
-
 .navigator {
   position: absolute;
   height: 4rem;
@@ -22,15 +18,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.navigator {
-
-}
-
-.navigator > p {
-  font-weight: bold;
-  
 }
 
 .text-ribbon {
