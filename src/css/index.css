@@ -9,22 +9,54 @@ header > video {
 
 header > img {
   height: 27rem;
-  transform: translateX(-9rem);
+  transform: translateX(-3rem);
 }
 
 header > .text-ribbon {
   position: absolute;
   z-index: 1;
   top: 5.7rem;
-  width: 75vw;
+  width: 80vw;
   display: flex;
   justify-content: flex-end;
 }
 
-header > .text-ribbon > div {
-
+header > .text-ribbon p {
+  width: 60vw;
 }
 
-header > .text-ribbon p {
-  width: 13em;
+#card-zimmer {
+  background-image: url("../img/inception-bg.jpg");
+}
+
+#card-zimmer img {
+  margin-top: -2rem;
+}
+
+#card-mm {
+  background-image: url("../img/reach-bg.jpg");
+}
+
+#card-mm img {
+  margin-top: -1rem;
+}
+
+#card-djawadi {
+  background-image: url("../img/got-bg.jpg");
+}
+
+#card-djawadi img {
+  margin-top: -2rem;
+}
+
+#card-jablonsky {
+  background-image: url("../img/transformers-bg.jpg");
+}
+
+#card-davidge {
+  background-image: url("../img/halo4-bg.jpg");
+}
+
+#card-davidge img {
+  margin-top: -13%;
 }
