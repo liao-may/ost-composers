@@ -38,11 +38,17 @@ h1, h2, p, a {
 }
 
 .info-card {
-  margin: 1rem auto auto auto;
+  margin: auto;
   background: white;
   max-width: 30rem;
   background-size: cover;
   box-shadow: 0.1rem 0.1rem 1rem;
+}
+
+@media (min-width: 30rem) {
+  .info-card {
+    margin: 1rem auto auto auto;
+  }
 }
 
 .info-card > h2 {
