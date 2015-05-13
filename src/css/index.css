@@ -60,3 +60,12 @@ header > .text-ribbon p {
 #card-davidge img {
   margin-top: -13%;
 }
+
+#card-jinnouchi {
+  background-image: url("../img/halo5-bg.jpg");
+  background-position: center;
+}
+
+#card-jinnouchi img{
+  margin-top: -40%;
+}
