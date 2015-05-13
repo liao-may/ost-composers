@@ -103,6 +103,13 @@ h1, h2, p, a {
   text-align: center;
   padding: 0.5rem 2rem;
   margin: 0 1rem 1rem 1rem;
+  transition-duration: 0.3s;
+  transition-property: color, background-color;
+}
+
+.composer-content > a:hover, .composer-content > a:focus, .composer-content > a:active {
+  background-color: yellow;
+  color: black;
 }
 
 footer {
