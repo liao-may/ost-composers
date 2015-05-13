@@ -54,6 +54,8 @@ h1, h2, p, a {
 .info-card > h2 {
   margin: 0;
   padding: 1rem 1rem 0.5rem 1rem;
+  color: #98D0F1;
+  font-weight: normal;
 }
 
 .info-card > p {
@@ -66,6 +68,15 @@ h1, h2, p, a {
   max-height: 10rem;
 }
 
-.info-card img {
+.info-card > div > img {
   width: 100%;
+}
+
+.info-card > a {
+  display: inline-block;
+  text-decoration: none;
+  background: #1572A4;
+  text-align: center;
+  padding: 0.5rem 2rem;
+  margin: 0 1rem 1rem 1rem;
 }
