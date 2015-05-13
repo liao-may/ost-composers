@@ -80,3 +80,22 @@ h1, h2, p, a {
   padding: 0.5rem 2rem;
   margin: 0 1rem 1rem 1rem;
 }
+
+footer {
+  background: #272B33;
+  box-shadow: -0.1rem 0 1rem;
+  display: block;
+  margin: 0;
+  padding: 1rem 3rem;
+}
+
+@media (min-width: 30rem) {
+  footer {
+    margin: 1rem 0 0 0;
+  }
+}
+
+footer > p {
+  color: #98D0F1;
+  text-align: center;
+}
