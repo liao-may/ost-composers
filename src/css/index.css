@@ -1,10 +1,17 @@
 header {
   overflow: hidden;
+  max-height: 27rem;
+  box-shadow: 0 0.1rem 1rem;
+}
+
+@media (min-width: 50rem) {
+  header {
+    box-shadow: none;
+  }
 }
 
 header > video {
-  height: 27rem;
-  transform: translateX(-20rem);
+  width: 100vw;
 }
 
 header > img {
@@ -21,12 +28,29 @@ header > .text-ribbon {
   justify-content: flex-end;
 }
 
+@media (min-width: 50rem) {
+  header > .text-ribbon {
+    width: 25rem;
+    left: 17vw;
+  }
+}
+
 header > .text-ribbon p {
   width: 60vw;
 }
 
+@media (min-width: 50rem) {
+  header > .text-ribbon p {
+    width: 20rem;
+  }
+}
+
 #card-zimmer {
   background-image: url("../img/inception-bg.jpg");
+}
+
+#card-zimmer > .composer-content {
+  order: -1;
 }
 
 #card-zimmer img {
@@ -45,6 +69,10 @@ header > .text-ribbon p {
   background-image: url("../img/got-bg.jpg");
 }
 
+#card-djawadi > .composer-content {
+  order: -1;
+}
+
 #card-djawadi img {
   margin-top: -2rem;
 }
@@ -55,6 +83,10 @@ header > .text-ribbon p {
 
 #card-davidge {
   background-image: url("../img/halo4-bg.jpg");
+}
+
+#card-davidge > .composer-content {
+  order: -1;
 }
 
 #card-davidge img {

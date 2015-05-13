@@ -37,42 +37,66 @@ h1, h2, p, a {
   padding: 1rem;
 }
 
-.info-card {
+.composer-section {
   margin: auto;
-  background: white;
   max-width: 30rem;
   background-size: cover;
   box-shadow: 0.1rem 0.1rem 1rem;
 }
 
 @media (min-width: 30rem) {
-  .info-card {
+  .composer-section {
     margin: 1rem auto auto auto;
   }
 }
 
-.info-card > h2 {
+@media (min-width: 50rem) {
+  .composer-section {
+    margin: 0;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.composer-section > .img-wrapper {
+  overflow: hidden;
+  max-height: 10rem;
+}
+
+@media (min-width: 50rem) {
+  .composer-section > .img-wrapper {
+    width: 45vw;
+    height: 15vw;
+    max-width: 25rem;
+    max-height: 15.45rem;
+  }
+}
+
+@media(min-width: 50rem) {
+  .composer-content {
+    width: 45vw;
+  }
+}
+
+.composer-section img {
+  width: 100%;
+}
+
+.composer-content > h2 {
   margin: 0;
   padding: 1rem 1rem 0.5rem 1rem;
   color: #98D0F1;
   font-weight: normal;
 }
 
-.info-card > p {
+.composer-content > p {
   margin: 0;
   padding: 0.5rem 1rem 1rem 1rem;
 }
 
-.info-card > div {
-  overflow: hidden;
-  max-height: 10rem;
-}
-
-.info-card > div > img {
-  width: 100%;
-}
-
-.info-card > a {
+.composer-content > a {
   display: inline-block;
   text-decoration: none;
   background: #1572A4;
@@ -92,6 +116,12 @@ footer {
 @media (min-width: 30rem) {
   footer {
     margin: 1rem 0 0 0;
+  }
+}
+
+@media(min-width: 50rem) {
+  footer {
+    margin: 0;
   }
 }
 
