@@ -42,6 +42,8 @@ h1, h2, p, a {
   max-width: 30rem;
   background-size: cover;
   box-shadow: 0.1rem 0.1rem 1rem;
+  transition-duration: 0.3s;
+  transition-property: margin;
 }
 
 @media (min-width: 30rem) {
@@ -63,12 +65,14 @@ h1, h2, p, a {
 .composer-section > .img-wrapper {
   overflow: hidden;
   max-height: 10rem;
+  transition-duration: 0.3s;
+  transition-property: width, height;
 }
 
 @media (min-width: 50rem) {
   .composer-section > .img-wrapper {
     width: 45vw;
-    height: 15vw;
+    height: 20vw;
     max-width: 25rem;
     max-height: 15.45rem;
   }
@@ -118,6 +122,8 @@ footer {
   display: block;
   margin: 0;
   padding: 1rem 3rem;
+  transition-duration: 0.3s;
+  transition-property: margin;
 }
 
 @media (min-width: 30rem) {
