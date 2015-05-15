@@ -12,14 +12,10 @@ header {
 
 header > video {
   width: 100vw;
-  transition-duration: 0.3s;
-  transition-property: width;
 }
 
 header > img {
   height: 27rem;
-  transition-duration: 0.3s;
-  transition-property: width;
 }
 
 @media(min-width: 50rem) {
