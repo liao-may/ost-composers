@@ -18,8 +18,32 @@
       }
     }
     </script>
+    <script>
+    (function() {
+      var cx = '007349186744206833373:yypqcjeznam';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+      '//cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+    </script>
+    <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
   </head>
   <body onload="replaceVideo()" onresize="replaceVideo()">
+
+
+
     <nav class="navigator">
       <h1>現代配樂師</h1>
     </nav>
@@ -108,9 +132,33 @@
       </div>
     </section>
     <footer>
+      <div class="g-plusone"
+           data-href="http://www.cs.pu.edu.tw/~s1032000/ost-composers/"></div>
+      <div class="fb-like"
+           data-href="http://www.cs.pu.edu.tw/~s1032000/ost-composers/"
+           data-layout="button_count"
+           data-action="like"
+           data-show-faces="true"
+           data-share="true"></div>
+      <script>
+       (function() {
+         var cx = '007349186744206833373:yypqcjeznam';
+         var gcse = document.createElement('script');
+         gcse.type = 'text/javascript';
+         gcse.async = true;
+         gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+             '//cse.google.com/cse.js?cx=' + cx;
+         var s = document.getElementsByTagName('script')[0];
+         s.parentNode.insertBefore(gcse, s);
+       })();
+      </script>
+      <gcse:search></gcse:search>
       <p>© 2015 殷啟聰 &amp; 廖美瑄</p>
     </footer>
 
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer>
+    {lang: 'zh-TW'}
+    </script>
   </body>
 </html>
