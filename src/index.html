@@ -14,11 +14,13 @@
     function replaceVideo() {
       if (window.matchMedia("(min-width: 50rem)").matches) {
         $("header > img").replaceWith("<video src=\"video/banner.mp4\" autoplay loop></video>");
+      } else {
+        $("header > video").replaceWith("<img src=\"img/banner.png\"/>");
       }
     }
     </script>
   </head>
-  <body onload="replaceVideo()">
+  <body onload="replaceVideo()" onresize="replaceVideo()">
     <nav class="navigator">
       <h1>現代配樂師</h1>
     </nav>
