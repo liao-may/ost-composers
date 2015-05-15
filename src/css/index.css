@@ -4,7 +4,7 @@ header {
   box-shadow: 0 0.1rem 1rem;
 }
 
-@media (min-width: 50rem) {
+@media(min-width: 50rem) {
   header {
     box-shadow: none;
   }
@@ -39,7 +39,7 @@ header > .text-ribbon {
   justify-content: flex-end;
 }
 
-@media (min-width: 50rem) {
+@media(min-width: 50rem) {
   header > .text-ribbon {
     width: 25rem;
     left: 17vw;
@@ -50,7 +50,7 @@ header > .text-ribbon p {
   width: 60vw;
 }
 
-@media (min-width: 50rem) {
+@media(min-width: 50rem) {
   header > .text-ribbon p {
     width: 20rem;
   }
