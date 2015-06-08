@@ -10,6 +10,7 @@ body {
 
 h1, h2, p, a {
   color: white;
+  font-weight: normal;
 }
 
 .navigator {
@@ -22,6 +23,15 @@ h1, h2, p, a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media(min-width: 50rem) {
+  .navigator {
+    justify-content: flex-start;
+  }
+  .navigator h1 {
+    margin-left: 2rem;
+  }
 }
 
 .text-ribbon {
@@ -93,7 +103,6 @@ h1, h2, p, a {
   margin: 0;
   padding: 1rem 1rem 0.5rem 1rem;
   color: #98D0F1;
-  font-weight: normal;
 }
 
 .composer-content > p {
